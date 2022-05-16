@@ -1,8 +1,8 @@
 import React from 'react'
 
-const MainHeader = () => {
+const MainHeader:React.FC<any> = ({children}) => {
   return (
-    <div>MainHeader</div>
+    <header>{children}</header>
   )
 }
 

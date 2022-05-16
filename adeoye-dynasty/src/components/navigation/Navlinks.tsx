@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
+import { NavLink } from "react-router-dom";
 
-const Navlinks = () => {
+const Navlinks: React.FC = () => {
   return (
-    <div>Navlinks</div>
-  )
-}
+    <ul>
+      <li>
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="/">Family</NavLink>
+      </li>
+      <li>
+        <NavLink to="/">Gallery</NavLink>
+      </li>
+    </ul>
+  );
+};
 
-export default Navlinks
+export default Navlinks;
