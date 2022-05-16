@@ -6,7 +6,7 @@ const MainNavigation:React.FC = () => {
   return (
     <MainHeader>
       <div>
-          <h1>Adeoye Dynasty</h1>
+          <h1 className="text-white">Adeoye Dynasty</h1>
       </div>
       <Navlinks />
     </MainHeader>

@@ -3,17 +3,22 @@ import { NavLink } from "react-router-dom";
 
 const Navlinks: React.FC = () => {
   return (
-    <ul className="d-flex flex-row">
-      <li>
-        <NavLink to="/">Home</NavLink>
+    <ul className="d-flex justify-content-between pt-2 ">
+      <li className="card-link ">
+        <NavLink to="/" className="text-decoration-none text-white  ">
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/">Family</NavLink>
+        <NavLink to="/" className="text-decoration-none text-white">
+          Family
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/">Gallery</NavLink>
+        <NavLink to="/" className="text-decoration-none text-white">
+          Gallery
+        </NavLink>
       </li>
-      <button className="btn btn-primary">dddddd</button>
     </ul>
   );
 };

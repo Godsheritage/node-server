@@ -1,10 +1,12 @@
-import React from 'react'
-import MainNavigation from '../components/navigation/MainNavigation'
+import React from "react";
+import MainNavigation from "../components/navigation/MainNavigation";
 
 const Home = () => {
   return (
-    <MainNavigation/>
-  )
-}
+    <div className="home">
+      <MainNavigation />
+    </div>
+  );
+};
 
-export default Home
+export default Home;

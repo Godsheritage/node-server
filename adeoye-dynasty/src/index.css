@@ -6,6 +6,13 @@
   text-decoration: none;
 }
 
+.home{
+  background-image: url('./assets/images/family.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* main navigation styles */
 /* nav links styles */
 /* main header styles */
