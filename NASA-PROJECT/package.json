@@ -1,0 +1,31 @@
+{
+  "name": "nasa-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x",
+    "npm" :"8.x"
+  },
+  "scripts": {
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-server && npm run install-client",
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "start": "npm run server",
+    "deploy": "npm run build --prefix client && npm run server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Godsheritage/NASA-SPACE-PROJECT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Godsheritage/NASA-SPACE-PROJECT/issues"
+  },
+  "homepage": "https://github.com/Godsheritage/NASA-SPACE-PROJECT#readme"
+}
