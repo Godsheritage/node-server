@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,11 +6,31 @@
   text-decoration: none;
 }
 
-.home{
-  background-image: url('./assets/images/family.jpg') ;
+.home {
+  background-image: url("./assets/images/family.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.link-styles li a {
+  border: 1px solid transparent;
+  color: #292929;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-family: Helvetica Rounded;
+}
+.link-styles li a:hover,   
+.link-styles li a:active
+.link-styles li a.active   { 
+  background: #f8df00;
+  border-color: #292929;
+  color: #292929;
+}
+
+.logo{
+  font-family: Oleo Script Swash Caps;
+  font-size: 3rem;
 }
 
 /* main navigation styles */

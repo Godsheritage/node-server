@@ -3,19 +3,19 @@ import { NavLink } from "react-router-dom";
 
 const Navlinks: React.FC = () => {
   return (
-    <ul className="d-flex justify-content-between pt-2 ">
-      <li className="card-link ">
+    <ul className="d-flex justify-content-evenly pt-3 link-styles ">
+      <li className="">
         <NavLink to="/" className="text-decoration-none text-white  ">
           Home
         </NavLink>
       </li>
-      <li>
-        <NavLink to="/" className="text-decoration-none text-white">
+      <li className="">
+        <NavLink to="/family" className="text-decoration-none text-white">
           Family
         </NavLink>
       </li>
-      <li>
-        <NavLink to="/" className="text-decoration-none text-white">
+      <li className="">
+        <NavLink to="/gallery" className="text-decoration-none text-white">
           Gallery
         </NavLink>
       </li>
