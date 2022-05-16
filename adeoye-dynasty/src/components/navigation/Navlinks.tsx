@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navlinks: React.FC = () => {
   return (
-    <ul>
+    <ul className="d-flex flex-row">
       <li>
         <NavLink to="/">Home</NavLink>
       </li>
@@ -13,6 +13,7 @@ const Navlinks: React.FC = () => {
       <li>
         <NavLink to="/">Gallery</NavLink>
       </li>
+      <button className="btn btn-primary">dddddd</button>
     </ul>
   );
 };
